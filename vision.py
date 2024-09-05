@@ -7,7 +7,7 @@ import google.generativeai as genai
 from PIL import Image
 import time
 
-genai.configure(api_key = 'AIzaSyAj74_vKePZ4pSDbDCtOUp88m2AoGJedUE')
+genai.configure(api_key = 'you_google_api_key')
 
 ## function to load Gemini Pro model and get reponses
 model = genai.GenerativeModel('gemini-1.5-flash')
