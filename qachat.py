@@ -1,7 +1,7 @@
 import json
 import streamlit as st
 import google.generativeai as genai
-genai.configure(api_key = 'AIzaSyAj74_vKePZ4pSDbDCtOUp88m2AoGJedUE')
+genai.configure(api_key = 'you_google_api_key')
 
 model = genai.GenerativeModel('gemini-pro')
 chat = model.start_chat(history = [])
